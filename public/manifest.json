@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Gitlab ReviewGPT",
+  "author": "Bilal Bentoumi",
+  "version": "0.1.1",
+  "description": "Reviews your Merge Requests using ChatGPT so that you can pretend to work",
+  "icons": {
+    "256": "icons/icon_256.png"
+  },
+  "action": {
+    "default_title": "Gitlab ReviewGPT",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*.openai.com/",
+    "https://*.githubusercontent.com/"
+  ]
+}

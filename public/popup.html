@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Gitlab ReviewGPT</title>
+</head>
+
+<body class="text-slate-900">
+
+  <div class="p-8 w-[48rem] max-h-[48rem] overflow-y-auto flex flex-col space-y-2">
+
+    <div class="flex flex-col font-mono space-y-2">
+
+      <div class="flex flex-row items-center">
+        <div class="text-xl flex-grow">
+          Gitlab ReviewGPT
+        </div>
+        <div id="rerun-btn"
+          class="invisible text-lg border border-slate-900 hover:bg-slate-200 cursor-pointer px-2 rounded-md">
+          Run again
+        </div>
+      </div>
+
+      <div class="flex flex-row items-center text-sm text-slate-400">
+        <div class="flex-grow flex flex-row space-x-2 items-center truncate overflow-hidden">
+          <span id="status-icon">
+          </span>
+          <span id="merge-request-url"></span></p>
+        </div>
+      </div>
+
+    </div>
+
+    <hr />
+
+    <div class="my-4">
+      <div id="result" class="flex flex-col space-y-2 text-[14px]"></div>
+    </div>
+
+  </div>
+
+  <script src="popup.js"></script>
+
+</body>
+
+</html>
