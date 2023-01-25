@@ -23,7 +23,7 @@ This is a Chrome extension which reviews Merge Requests for you using [ChatGPT](
 **NB:** Running the review multiple times often produces different feedback, so if you are dealing with a larger MR, it might be a good idea to do that to get the most out of it.
 ## How to build and install
 
-- Clone this repository `git clone gitlab-review-gpt && cd gitlab-review-gpt`
+- Clone this repository `git clone git@github.com:bilalbentoumi/gitlab-review-gpt.git && cd gitlab-review-gpt`
 - Install the dependencies `npm install`
 - Run the build script `npm run build`
 - Navigate to `chrome://extensions`
